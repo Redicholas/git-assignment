@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <header className="p-8 bg-zinc-200 flex items-center justify-between mb-20">
+        <header className="p-8 border-b border-black flex items-center justify-between mb-20">
             <h1>NICHOLAS PETERS</h1>
                 <div>
                     <ul className="flex gap-4">
