@@ -1,8 +1,10 @@
+import Kayaking from "./Components/Kayaking"
+
 function App() {
 
   return (
     <div className="App">
-      <h1 className="text-red-500">Hej</h1>
+      <Kayaking />
     </div>
   )
 }
