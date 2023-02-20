@@ -1,18 +1,36 @@
 import Header from "./Components/Header"
-import Kayaking from "./Components/Kayaking"
-import Sailing from "./Components/Sailing"
-import Cycling from "./Components/Cycling"
+import HobbyArticle from "./Components/HobbyArticle"
+import embla from "./assets/embla.jpg"
+import kajak from "./assets/kajak.jpg"
+import cycling from "./assets/cycling.jpg"
 
-function App() {
+export default function App() {
+const lorem = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+  Optio, est quaerat. Voluptates consectetur totam pariatur architecto facere 
+  repellendus iusto quibusdam. Accusamus id in tempore numquam quo, laudantium 
+  voluptate obcaecati quos.`
 
   return (
     <div className="App">
       <Header />
-      <Kayaking />
-      <Sailing />
-      <Cycling />
+      <HobbyArticle
+          img={kajak}
+          alt="Kayaking in Norway"
+          title="Sea Kayaking"
+          text={lorem}
+         />
+      <HobbyArticle
+          img={embla}
+          alt="The Sailboat Embla"
+          title="Sailing"
+          text={lorem}
+         />
+      <HobbyArticle
+          img={cycling}
+          alt="Bicycle with bags attached"
+          title="Cycling"
+          text={lorem}
+         />
     </div>
   )
 }
-
-export default App
