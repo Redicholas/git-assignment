@@ -1,13 +1,14 @@
-import Kayaking from "./Components/Kayaking"
-
 import Header from "./Components/Header"
+import Kayaking from "./Components/Kayaking"
+import Sailing from "./Components/Sailing"
 
 function App() {
 
   return (
     <div className="App">
-      <Kayaking />
       <Header />
+      <Kayaking />
+      <Sailing />
     </div>
   )
 }
