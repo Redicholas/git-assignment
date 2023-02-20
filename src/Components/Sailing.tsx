@@ -2,7 +2,7 @@ import embla from '../assets/embla.jpg'
 
 export default function Sailing() {
     return (
-        <article className="max-w-xl mx-auto">
+        <article className="max-w-xl mx-auto my-20">
             <img src={embla} alt="Sailing" className="" />
             <div>
                 <h2 className="my-4 font-bold text-3xl">Sailing</h2>

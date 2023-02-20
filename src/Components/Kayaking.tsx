@@ -2,7 +2,7 @@ import kajak from '../assets/kajak.jpg';
 
 export default function Kayaking() {
     return (
-        <article className="max-w-xl mx-auto mb-52">
+        <article className="max-w-xl mx-auto my-20">
             <img src={kajak} alt="Kayaking" className="" />
             <div>
                 <h2 className="my-4 font-bold text-3xl">Sea Kayaking</h2>
