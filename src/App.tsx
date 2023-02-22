@@ -1,5 +1,6 @@
 import Header from "./Components/Header"
 import HobbyArticle from "./Components/HobbyArticle"
+import Footer from "./Components/Footer"
 import sailing from "./assets/sailing.jpg"
 import sailing2 from "./assets/sailing2.jpg"
 import sailing3 from "./assets/sailing3.jpg"
@@ -49,6 +50,7 @@ const lorem = `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           title="Cycling"
           text={lorem}
          />
+      <Footer />
     </div>
   )
 }
